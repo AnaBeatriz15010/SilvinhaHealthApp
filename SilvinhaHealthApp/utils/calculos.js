@@ -25,7 +25,7 @@ export const calcularPesoIdeal = (altura, sexo) => {
         pesoIdeal = 45.5 + 2.3 * ((alturaCm - 152.4) / 2.54);
     }
 
-    return pesoIdeal.toFixed(l)
+    return pesoIdeal.toFixed(l);
 };
 
 export const calcularAgua = (peso) => {
@@ -48,4 +48,4 @@ export const calcularTMB = (peso, altura, idade, sexo) => {
     }
 
     return Math.round(tmb);
-}
+};
