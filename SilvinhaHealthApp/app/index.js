@@ -122,12 +122,3 @@ textAlign: 'center',
 
 
 
-
-export default function HomeScreen() {
-  return (
-    <View>
-      <Text>index</Text>
-    </View>
-  )
-}
-
